@@ -5,11 +5,11 @@
     ○ Date 
     ○ Model version 
     ○ License (please use an MIT or Apache 2.0 License) 
-    ○ Model implementation code (link to Jupyter notebook) 
-    ○ Intended Use: 
-        ■ Intended uses 
-        ■ Intended users 
-        ■ Out-of-scope uses 
+    ○ Model implementation code: https://colab.research.google.com/github/jrbluehbh/Group-14-project/blob/main/DNSC_6301_Group_Project.ipynb#scrollTo=Dph0yEdlCZNc
+    ##○ Intended Use: 
+    ##    ■ Intended uses 
+    ##    ■ Intended users 
+    ##    ■ Out-of-scope uses 
         
 ● Training data (8 pts.):
 
