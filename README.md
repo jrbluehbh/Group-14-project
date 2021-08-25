@@ -50,8 +50,8 @@
 ### Model details : 
 
     ○ Columns used as inputs in the final model:
-      ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6',                            'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5',                              'BILL_AMT6', 'PAY_AMT1',   'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5',                    'PAY_AMT6']
-    ○ Column(s) used as target(s) in the final model :'DELINQUENT'
+      ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
+    ○ Column(s) used as target(s) in the final model :'DELINQ_NEXT'
     ○ Type of model : DECISION TREE
     ○ Software used to implement the model  : google.colab-python
     ○ Version of the modeling software :python 3.0
@@ -59,15 +59,17 @@
 ### ??Quantitative analysis:
 
     ○ Metrics used to evaluate your final model :AUC PLOT
+    <font color="red"> 
+    ```diff
     ○ State the final values of the metrics for all data: training, validation, and test data 
-    ![image](https://user-images.githubusercontent.com/89275341/130796658-0dae97d9-0c64-410f-beea-6cff2973392f.png)
+
+![image](https://user-images.githubusercontent.com/89275341/130871845-cf31bfb1-5b26-47d1-999b-b1cb9a504b53.png)
 
 ### ??Ethical considerations:
 
     ○ Describe potential negative impacts of using your model: 
-        ■ Math or software problems: The very begining result shows our model have demographical bias
-        ■ Real-world risks: who, what, when or how 
+        ■ Math or software problems: None
+        ■ Real-world risks: Some hacker might hack into raw data, change user's 'DELINQ_NEXT' and thus 
     ○ Describe potential uncertainties relating to the impacts of using your model: 
-        ■ Math or software problems 
-        ■ Real-world risks: who, what, when or how? 
-    ○ Describe any unexpected or results
+        ■ Math or software problems: None
+        ■ Real-world risks: Not detected yet
