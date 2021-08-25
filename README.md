@@ -54,17 +54,17 @@
     ○ Version of the modeling software :python 3.0
     
 ### ??Quantitative analysis:
-??
-??    ○ Metrics used to evaluate your final model :AUC PLOT
-??    ○ State the final values of the metrics for all data: training, validation, and test data 
-??    ![image](https://user-images.githubusercontent.com/89275341/130796658-0dae97d9-0c64-410f-beea-6cff2973392f.png)
-??
+
+    ○ Metrics used to evaluate your final model :AUC PLOT
+    ○ State the final values of the metrics for all data: training, validation, and test data 
+    ![image](https://user-images.githubusercontent.com/89275341/130796658-0dae97d9-0c64-410f-beea-6cff2973392f.png)
+
 ### ??Ethical considerations:
-??
-??    ○ Describe potential negative impacts of using your model: 
-??        ■ Math or software problems: The very begining result shows our model have demographical bias
-??        ■ Real-world risks: who, what, when or how 
-??    ○ Describe potential uncertainties relating to the impacts of using your model: 
-??        ■ Math or software problems 
-??        ■ Real-world risks: who, what, when or how? 
-??    ○ Describe any unexpected or results
+
+    ○ Describe potential negative impacts of using your model: 
+        ■ Math or software problems: The very begining result shows our model have demographical bias
+        ■ Real-world risks: who, what, when or how 
+    ○ Describe potential uncertainties relating to the impacts of using your model: 
+        ■ Math or software problems 
+        ■ Real-world risks: who, what, when or how? 
+    ○ Describe any unexpected or results
