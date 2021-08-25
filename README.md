@@ -1,5 +1,5 @@
 # Group-14-project
-● Basic information:
+###Basic information:
 
     ○ Group member names and emails：
       Bohao     bohaohe16@gwu.edu
@@ -17,7 +17,7 @@
     ##    ■ Intended users :Business intelligence department of banks
     ##    ■ Out-of-scope uses :Avoid demographical result of forecasting(avoid being racist)
         
-● Training data (Training data has eliminated all ):
+### Training data (Training data has eliminated all ):
 
     ○ Source of training data: 50% From raw data
     ○ How training data was divided into training and validation data : 
@@ -39,12 +39,12 @@
         ■ Measurement level : NOMINAL
         ■ Description : Whether customer delinquent or not(1 refers to delinquent)
         
-● Test data (5 pts.):
+### Test data :
 
     ○ Source of test data: 50% from validation_test data
     ○ Number of rows in test data : 7500 rows
     
-● Model details (8 pts.): 
+### Model details : 
 
     ○ Columns used as inputs in the final model:
       ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6',                            'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5',                              'BILL_AMT6', 'PAY_AMT1',   'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5',                    'PAY_AMT6']
@@ -53,16 +53,16 @@
     ○ Software used to implement the model  : google.colab-python
     ○ Version of the modeling software :python 3.0
     
-??● Quantitative analysis (7 pts.):
+### ??Quantitative analysis:
 ??
 ??    ○ Metrics used to evaluate your final model :AUC PLOT
 ??    ○ State the final values of the metrics for all data: training, validation, and test data 
 ??    ![image](https://user-images.githubusercontent.com/89275341/130796658-0dae97d9-0c64-410f-beea-6cff2973392f.png)
 ??
-??● Ethical considerations (6 pts.)
+### ??Ethical considerations:
 ??
 ??    ○ Describe potential negative impacts of using your model: 
-??        ■ Math or software problems: The very begining result shows our model have                     demographical bias
+??        ■ Math or software problems: The very begining result shows our model have demographical bias
 ??        ■ Real-world risks: who, what, when or how 
 ??    ○ Describe potential uncertainties relating to the impacts of using your model: 
 ??        ■ Math or software problems 
