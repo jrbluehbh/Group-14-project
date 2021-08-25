@@ -3,9 +3,9 @@
 
     ○ Group member names and emails：
       Bohao     bohaohe16@gwu.edu
-      Shreyas   Sdeo@gwu.edu
-      promound  honeypramod@gwu.edu
-      James     jamesworral@gwu.edu
+      Shreyas   Sdeo1@gwu.edu
+      Honey     honeypramod@gwu.edu
+      James     jamesworrall@gwu.edu
       
     ○ Date: 25/08/2021
     ??○ Model version:Decision tree
