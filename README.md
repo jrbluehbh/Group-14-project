@@ -19,29 +19,32 @@
         
 ### Training data (Training data has eliminated all ):
 
-    ○ Source of training data: 50% From raw data
+    ○ Source of training data: GWU Blackboard, email `jphall@gwu.edu` for more information
     ○ How training data was divided into training and validation data : 
       set seed and devide 50% for training data and another 50% for validation data
     ○ Number of rows in training and validation data ：
       Training data: 15000 rows 
       Validation data: 7500 rows 
-    ○ Data dictionary; for each column in the training dataset include: 
-        ■ Name :['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6',                            'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5',                              'BILL_AMT6', 'PAY_AMT1',   'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5',                    'PAY_AMT6']
-        ■ Modeling role :x
-        ■ Measurement level : NOMINAL:PAY_0,2~6, CONTINIOUS: LIMIT_BAL, BILLAMT1~6,PAY_ATM1~6
-        ■ Description : 
-          LIMIT_BAL: refer to each accounts limit balance
-          ??PAY_0,2~6: 
-          ??BILLAMT1~6,PAY_ATM1~6: The amount they bill and pay at ATM each time.
-        
-        ■ Name :'DELINQ_NEXT'
-        ■ Modeling role :y
-        ■ Measurement level : NOMINAL
-        ■ Description : Whether customer delinquent or not(1 refers to delinquent)
+    ○ Data dictionary:
+    
+| Name | Modeling Role | Measurement Level| Description|
+| ---- | ------------- | ---------------- | ---------- |
+|**ID**| ID | int | unique row indentifier |
+| **LIMIT_BAL** | input | float | amount of previously awarded credit |
+| **SEX** | demographic information | int | 1 = male; 2 = female
+| **RACE** | demographic information | int | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
+| **EDUCATION** | demographic information | int | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
+| **MARRIAGE** | demographic information | int | 1 = married; 2 = single; 3 = others |
+| **AGE** | demographic information | int | age in years |
+| **PAY_0, PAY_2 - PAY_6** | inputs | int | history of past payment; PAY_0 = the repayment status in September, 2005; PAY_2 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
+| **BILL_AMT1 - BILL_AMT6** | inputs | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
+| **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
+| **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
+
         
 ### Test data :
 
-    ○ Source of test data: 50% from validation_test data
+    ○ Source of test data: GWU Blackboard, email `jphall@gwu.edu` for more information
     ○ Number of rows in test data : 7500 rows
     
 ### Model details : 
