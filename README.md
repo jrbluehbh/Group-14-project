@@ -8,14 +8,14 @@
       James     jamesworrall@gwu.edu
       
     ○ Date: 25/08/2021
-    ??○ Model version:Decision tree
+    ○ Model version:Decision tree
     ○ License: MIT
     ○ Model implementation code: https://colab.research.google.com/github/jrbluehbh/Group-14-project/blob/main/DNSC_6301_Group_Project.ipynb#scrollTo=Dph0yEdlCZNc
     
-    ##○ Intended Use: 
-    ##    ■ Intended uses :By building up forecasting model to forecast
-    ##    ■ Intended users :Business intelligence department of banks
-    ##    ■ Out-of-scope uses :Avoid demographical result of forecasting(avoid being racist)
+    ○ Intended Use: 
+        ■ Intended uses :By building up forecasting model to forecast whether customer will delinquent or not 
+        ■ Intended users :Business intelligence department of banks
+        ■ Out-of-scope uses :None
         
 ### Training data (Training data has eliminated all ):
 
