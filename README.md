@@ -1,14 +1,14 @@
-# Group-14-project
+# Group 14 Credit Line Increase Model Card
 ### Basic information:
 
-    ○ Group member names and emails：
-      Bohao     bohaohe16@gwu.edu
-      Shreyas   Sdeo1@gwu.edu
-      Honey     honeypramod@gwu.edu
-      James     jamesworrall@gwu.edu
+* **  Group member names and emails**：
+      Bohao,     'bohaohe16@gwu.edu'
+      Shreyas,   'Sdeo1@gwu.edu'
+      Honey,     'honeypramod@gwu.edu'
+      James,     'jamesworrall@gwu.edu'
       
-    ○ Date: 25/08/2021
-    ○ Model version:Decision tree
+* **    Date**: 25/08/2021
+* ** Model version**: 1.0
     ○ License: MIT
     ○ Model implementation code: https://colab.research.google.com/github/jrbluehbh/Group-14-project/blob/main/DNSC_6301_Group_Project.ipynb#scrollTo=Dph0yEdlCZNc
     
