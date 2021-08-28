@@ -1,31 +1,27 @@
 # Group 14 Credit Line Increase Model Card
 ### Basic information:
 
-* **  Group member names and emails**：
+* **Group member names and emails**：
       Bohao,     'bohaohe16@gwu.edu'
       Shreyas,   'Sdeo1@gwu.edu'
       Honey,     'honeypramod@gwu.edu'
       James,     'jamesworrall@gwu.edu'
       
-* **    Date**: 25/08/2021
-* ** Model version**: 1.0
-    ○ License: MIT
-    ○ Model implementation code: https://colab.research.google.com/github/jrbluehbh/Group-14-project/blob/main/DNSC_6301_Group_Project.ipynb#scrollTo=Dph0yEdlCZNc
+* **Date**: 25/08/2021
+* **Model version**: 1.0
+* **License**: MIT
+* **Model implementation code**: https://colab.research.google.com/github/jrbluehbh/Group-14-project/blob/main/DNSC_6301_Group_Project.ipynb#scrollTo=Dph0yEdlCZNc
     
-    ○ Intended Use: 
-        ■ Intended uses :By building up forecasting model to forecast whether customer will delinquent or not 
-        ■ Intended users :Business intelligence department of banks
-        ■ Out-of-scope uses :None
+### Intended Use: 
+     
+* **Intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase. 
+* **Intended users**: Students in GWU DNSC 6301 bootcamp.
+* **Out-of-scope uses**: Any use outside of an eductional setting is out-of-scope.
         
 ### Training data (Training data has eliminated all ):
 
-    ○ Source of training data: GWU Blackboard, email `jphall@gwu.edu` for more information
-    ○ How training data was divided into training and validation data : 
-      set seed and devide 50% for training data and another 50% for validation data
-    ○ Number of rows in training and validation data ：
-      Training data: 15000 rows 
-      Validation data: 7500 rows 
-    ○ Data dictionary:
+ 
+* Data dictionary: 
     
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -41,35 +37,42 @@
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
+* **Source of training data**: GWU Blackboard, email 'bohaohe16@gwu.edu', 'Sdeo1@gwu.edu', 'honeypramod@gwu.edu' or 'jamesworrall@gwu.edu' for more information
+* **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
+* **Number of rows in training and validation data**:
+  * Training rows: 15,000
+  * Validation rows: 7,500
+
         
 ### Test data :
 
-    ○ Source of test data: GWU Blackboard, email `jphall@gwu.edu` for more information
-    ○ Number of rows in test data : 7500 rows
+* **Source of test data**: GWU Blackboard, email 'bohaohe16@gwu.edu', 'Sdeo1@gwu.edu', 'honeypramod@gwu.edu' or 'jamesworrall@gwu.edu' for more information
+* **Number of rows in test data**: 7500 rows
+* **State any differences in columns between training and test data**: None
     
 ### Model details : 
 
-    ○ Columns used as inputs in the final model:
-      ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
-    ○ Column(s) used as target(s) in the final model :'DELINQ_NEXT'
-    ○ Type of model : DECISION TREE
-    ○ Software used to implement the model  : google.colab-python
-    ○ Version of the modeling software :python 3.0
+* **Columns used as inputs in the final model**:
+'LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+* **Column used as target in the final model**:'DELINQ_NEXT'
+* **Type of model**: DECISION TREE
+* **Software used to implement the model**: Python3, scikit-learn
+* **Version of the modeling software**: Python 3.7.11, scikit-learn 0.22.2.post1
     
 ### ??Quantitative analysis:
 
-    ○ Metrics used to evaluate your final model :AUC PLOT
+* **Metrics used to evaluate your final model**:AUC PLOT
     <font color="red"> 
     ```diff
-    ○ State the final values of the metrics for all data: training, validation, and test data 
+* **State the final values of the metrics for all data**: training, validation, and test data 
 
 ![image](https://user-images.githubusercontent.com/89275341/130871845-cf31bfb1-5b26-47d1-999b-b1cb9a504b53.png)
 
 ### ??Ethical considerations:
 
-    ○ Describe potential negative impacts of using your model: 
+* **Describe potential negative impacts of using your model**: 
         ■ Math or software problems: None
         ■ Real-world risks: Some hacker might hack into raw data, change user's 'DELINQ_NEXT' and thus 
-    ○ Describe potential uncertainties relating to the impacts of using your model: 
+* **Describe potential uncertainties relating to the impacts of using your model**: 
         ■ Math or software problems: None
         ■ Real-world risks: Not detected yet
