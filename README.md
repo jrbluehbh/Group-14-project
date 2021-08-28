@@ -78,5 +78,5 @@
 * **Model relies too heavily on the PAY_0 variable.**
 * **AUC falls within an acceptable range however could be imporved and my present unacceptable financial risk.**
 * **Explicit bias was mitigated by removing all demographic information from the model however implicit bias still exists.** 
-* **AIR was improved by using a cutoff of .18 however Black-to-White AIR and Hispanic-to-White AIR while legal at above .8 may present unacceptable                         reputational risk**
+* **AIR was improved by using a cutoff of .18 however Black-to-White AIR and Hispanic-to-White AIR while legal at above .8 may present unacceptable                         reputational risk.**
 
