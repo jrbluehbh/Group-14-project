@@ -1,7 +1,7 @@
 # Group 14 Credit Line Increase Model Card
 ### Basic information:
 
-* **Group members:**：
+* **Group members:**
       Bohao,     'bohaohe16@gwu.edu'
       Shreyas,   'Sdeo1@gwu.edu'
       Honey,     'honeypramod@gwu.edu'
