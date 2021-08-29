@@ -63,13 +63,13 @@
 
 * **Metrics used to evaluate your final model**: Used Training and Validation AUC as well as AIR to determine an ideal depth of 6 for the final model. 
 * **Final values of the metrics for all data**: 
-* "**Training AUC**: 0.78",\n
-* "**Validation AUC**: 0.75",\n
-* "**Test AUC**: 0.74",\n
-* "**Asian-to-White AIR**: 1.00",\n
-* "**Black-to-White AIR**: 0.85",\n
-* "**Female-to-Male AIR**: 1.02",\n
-* "**Hispanic-to-White AIR**: 0.83"
+      * **Training AUC**: 0.78
+      * **Validation AUC**: 0.75
+      * **Test AUC**: 0.74
+      * **Asian-to-White AIR**: 1.00
+      * **Black-to-White AIR**: 0.85
+      * **Female-to-Male AIR**: 1.02
+      * **Hispanic-to-White AIR**: 0.83
 
 ![image](https://user-images.githubusercontent.com/89275341/130871845-cf31bfb1-5b26-47d1-999b-b1cb9a504b53.png)
 
