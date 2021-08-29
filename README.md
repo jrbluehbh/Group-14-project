@@ -63,7 +63,7 @@
 
 * **Metrics used to evaluate your final model**: Used Training and Validation AUC as well as AIR to determine an ideal depth of 6 for the final model. 
 * **Final values of the metrics for all data**: 
-  * **Training AUC**: 0.78
+  * * **Training AUC**: 0.78
   * * **Validation AUC**: 0.75
   * * **Test AUC**: 0.74
   * * **Asian-to-White AIR**: 1.00
