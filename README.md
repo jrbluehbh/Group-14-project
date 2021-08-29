@@ -63,20 +63,20 @@
 
 * **Metrics used to evaluate your final model**: Used Training and Validation AUC as well as AIR to determine an ideal depth of 6 for the final model. 
 * **Final values of the metrics for all data**: 
-"* **Training AUC**: 0.78\n",
-"* **Validation AUC**: 0.75\n",
-"* **Test AUC**: 0.74\n",
-"* **Asian-to-White AIR**: 1.00\n",
-"* **Black-to-White AIR**: 0.85\n",
-"* **Female-to-Male AIR**: 1.02\n",
-"* **Hispanic-to-White AIR**: 0.83"
+* "**Training AUC**: 0.78",\n
+* "**Validation AUC**: 0.75",\n
+* "**Test AUC**: 0.74",\n
+* "**Asian-to-White AIR**: 1.00",\n
+* "**Black-to-White AIR**: 0.85",\n
+* "**Female-to-Male AIR**: 1.02",\n
+* "**Hispanic-to-White AIR**: 0.83"
 
 ![image](https://user-images.githubusercontent.com/89275341/130871845-cf31bfb1-5b26-47d1-999b-b1cb9a504b53.png)
 
 ### Ethical considerations: 
         
 * **Model relies too heavily on the PAY_0 variable.**
-* **AUC falls within an acceptable range however could be imporved and my present unacceptable financial risk.**
-* **Explicit bias was mitigated by removing all demographic information from the model however implicit bias still exists.** 
-* **AIR was improved by using a cutoff of .18 however Black-to-White AIR and Hispanic-to-White AIR while legal at above .8 may present unacceptable                         reputational risk.**
+* **AUC falls within an acceptable range however, could be improved upon and may present unacceptable financial risk.**
+* **Explicit bias was mitigated by not using demographic data from in the model however, implicit bias may still exist in the data.** 
+* **AIR was improved by using a cutoff of .18 however, Black-to-White AIR and Hispanic-to-White AIR, while legal at above .8, may present unacceptable                         reputational risk.**
 
